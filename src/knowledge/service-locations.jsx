@@ -171,9 +171,9 @@ Requirement: ${quoteForm.requirement || 'Not specified'}
   // KBM → 82206 24590
   // RMC → 72008 30590
   const phoneNumber =
-    quoteForm.branch === 'RMC'
-      ? '917200830590'
-      : '919344330590';
+  quoteForm.branch === 'RMC'
+    ? '919344330590'
+    : '918220624590';
 
   const whatsappUrl =
     `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
