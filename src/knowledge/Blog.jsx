@@ -14,7 +14,7 @@ import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import EmojiObjectsOutlinedIcon from '@mui/icons-material/EmojiObjectsOutlined';
 import WorkspacePremiumOutlinedIcon from '@mui/icons-material/WorkspacePremiumOutlined';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
-import CalendarTodayOutlinedIcon from '@mui/icons-material/CalendarTodayOutlined';
+
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import CloseIcon from '@mui/icons-material/Close';
 import computerVisionImg from "../Assests/blog-computer-vision-jaw.jpg";
@@ -468,12 +468,7 @@ const Blog = () => {
 
                   {/* Content */}
                   <Box sx={{ p: 2.5, display: 'flex', flexDirection: 'column', flex: 1 }}>
-                    <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.7, mb: 1 }}>
-                      <CalendarTodayOutlinedIcon sx={{ fontSize: 13, color: '#9A9A9A' }} />
-                      <Typography sx={{ fontSize: '11px', color: '#9A9A9A' }}>
-                        {a.date} · {a.readTime}
-                      </Typography>
-                    </Box>
+                    
 
                     <Typography
                       sx={{ fontWeight: 700, fontSize: '15px', color: '#111', mb: 1, lineHeight: 1.35 }}
@@ -563,12 +558,7 @@ const Blog = () => {
                   }}
                 />
 
-                <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.7, mb: 2 }}>
-                  <CalendarTodayOutlinedIcon sx={{ fontSize: 14, color: '#9A9A9A' }} />
-                  <Typography sx={{ fontSize: '12px', color: '#9A9A9A' }}>
-                    {selectedBlog.date} · {selectedBlog.readTime}
-                  </Typography>
-                </Box>
+                
 
                 <Typography
                   sx={{

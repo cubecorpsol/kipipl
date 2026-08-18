@@ -156,7 +156,7 @@ const ServiceLocations = () => {
 };
 
   const handleQuoteSubmit = () => {
-    const message = `
+  const message = `
 Hello KIPIPL,
 
 I would like to request a quotation.
@@ -166,12 +166,20 @@ Phone: ${quoteForm.phone}
 Branch: ${quoteForm.branch}
 Product / Service: ${quoteForm.product}
 Requirement: ${quoteForm.requirement || 'Not specified'}
-    `;
+  `;
 
-    const whatsappUrl = `https://wa.me/918220624590?text=${encodeURIComponent(message)}`;
+  // KBM → 82206 24590
+  // RMC → 72008 30590
+  const phoneNumber =
+    quoteForm.branch === 'RMC'
+      ? '917200830590'
+      : '918220624590';
 
-    window.open(whatsappUrl, '_blank');
-  };
+  const whatsappUrl =
+    `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+  window.open(whatsappUrl, '_blank');
+};
 
   const scrollToCoverage = () => {
     coverageRef.current?.scrollIntoView({ behavior: 'smooth' });

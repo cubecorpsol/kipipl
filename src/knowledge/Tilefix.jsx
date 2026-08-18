@@ -359,10 +359,7 @@ const faqsRight = [
   <ArrowRight className="w-4 h-4" />
 </button>
 
-        <button className="flex items-center gap-2 bg-white/80 border border-gray-300 text-gray-800 text-xs font-bold px-6 py-3 rounded-sm hover:bg-white transition-colors">
-          Enquire Now
-          <ArrowRight className="w-4 h-4" />
-        </button>
+        
 
       </div>
 
