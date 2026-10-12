@@ -107,3 +107,338 @@ webpack compiled successfully
 Compiling...
 Compiled successfully!
 webpack compiled successfully
+Compiling...
+Failed to compile.
+
+Module not found: SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: Expected double-quoted property name in JSON at position 673 (line 24 column 1)
+ERROR in ./src/index.js 7:0-24
+Module not found: SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: Expected double-quoted property name in JSON at position 673 (line 24 column 1)
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: Expected double-quoted property name in JSON at position 673 (line 24 column 1)
+ERROR in Module not found: SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: Expected double-quoted property name in JSON at position 673 (line 24 column 1)
+
+ERROR in Module not found: SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: Expected double-quoted property name in JSON at position 673 (line 24 column 1)
+
+ERROR in main
+Module not found: SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: Expected double-quoted property name in JSON at position 673 (line 24 column 1)
+
+ERROR in Module not found: SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory description file): SyntaxError: Expected double-quoted property name in JSON at position 673 (line 24 column 1)
+
+ERROR in Error: Child compilation failed:
+  Module not found: SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-mai  n\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downl  oads\kipipl-main\kipipl-main\package.json (directory description file): Syntax  Error: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (director  y description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-  main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Do  wnloads\kipipl-main\kipipl-main\package.json (directory description file): Syn  taxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (direc  tory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipi  pl-main\package.json (directory description file): SyntaxError: C:\Users\Manoj  \Downloads\kipipl-main\kipipl-main\package.json (directory description file):   SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (di  rectory description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\k  ipipl-main\package.json (directory description file): SyntaxError: C:\Users\Ma  noj\Downloads\kipipl-main\kipipl-main\package.json (directory description file  ): SyntaxError: Expected double-quoted property name in JSON at position 673 (  line 24 column 1)
+  ModuleNotFoundError: Module not found: SyntaxError: C:\Users\Manoj\Downloads\k  ipipl-main\kipipl-main\package.json (directory description file): SyntaxError:   C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory desc  ription file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\p  ackage.json (directory description file): SyntaxError: C:\Users\Manoj\Download  s\kipipl-main\kipipl-main\package.json (directory description file): SyntaxErr  or: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (directory d  escription file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-mai  n\package.json (directory description file): SyntaxError: C:\Users\Manoj\Downl  oads\kipipl-main\kipipl-main\package.json (directory description file): Syntax  Error: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (director  y description file): SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-  main\package.json (directory description file): SyntaxError: C:\Users\Manoj\Do  wnloads\kipipl-main\kipipl-main\package.json (directory description file): Syn  taxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\package.json (direc  tory description file): SyntaxError: Expected double-quoted property name in J  SON at position 673 (line 24 column 1)
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\webpack\l  ib\Compilation.js:2231:28
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\webpack\l  ib\NormalModuleFactory.js:928:13
+      at eval (eval at create (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\  node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\webpack\l  ib\NormalModuleFactory.js:338:22
+      at eval (eval at create (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\  node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\webpack\l  ib\NormalModuleFactory.js:520:22
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\webpack\l  ib\NormalModuleFactory.js:159:10
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\webpack\l  ib\NormalModuleFactory.js:750:23
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\neo-async  \async.js:2830:7
+      at done (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\neo  -async\async.js:2925:13)
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\webpack\l  ib\NormalModuleFactory.js:1193:10
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\enhanced-  resolve\lib\Resolver.js:620:22
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\enhanced-  resolve\lib\Resolver.js:716:21
+      at eval (eval at create (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\  node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:24:1)
+      at done (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\web  pack\lib\cache\ResolverCachePlugin.js:369:13)
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\webpack\l  ib\cache\ResolverCachePlugin.js:204:22
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\enhanced-  resolve\lib\Resolver.js:716:21
+      at eval (eval at create (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\  node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\enhanced-  resolve\lib\Resolver.js:716:21
+      at eval (eval at create (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\  node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:24:1)
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\enhanced-  resolve\lib\DescriptionFilePlugin.js:58:24
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\enhanced-  resolve\lib\DescriptionFileUtils.js:146:21
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\enhanced-  resolve\lib\forEachBail.js:39:13
+      at onJson (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\e  nhanced-resolve\lib\DescriptionFileUtils.js:131:14)
+      at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\enhanced-  resolve\lib\DescriptionFileUtils.js:81:15
+      at process.processTicksAndRejections (node:internal/process/task_queues:88  :21)
+  
+  - Compilation.js:2231 
+    [kipipl-main]/[webpack]/lib/Compilation.js:2231:28
+  
+  - NormalModuleFactory.js:928 
+    [kipipl-main]/[webpack]/lib/NormalModuleFactory.js:928:13
+  
+  
+  - NormalModuleFactory.js:338 
+    [kipipl-main]/[webpack]/lib/NormalModuleFactory.js:338:22
+  
+  
+  - NormalModuleFactory.js:520 
+    [kipipl-main]/[webpack]/lib/NormalModuleFactory.js:520:22
+  
+  - NormalModuleFactory.js:159 
+    [kipipl-main]/[webpack]/lib/NormalModuleFactory.js:159:10
+  
+  - NormalModuleFactory.js:750 
+    [kipipl-main]/[webpack]/lib/NormalModuleFactory.js:750:23
+  
+  - async.js:2830 
+    [kipipl-main]/[neo-async]/async.js:2830:7
+  
+  - async.js:2925 done
+    [kipipl-main]/[neo-async]/async.js:2925:13
+  
+  - NormalModuleFactory.js:1193 
+    [kipipl-main]/[webpack]/lib/NormalModuleFactory.js:1193:10
+  
+  - Resolver.js:620 
+    [kipipl-main]/[enhanced-resolve]/lib/Resolver.js:620:22
+  
+  - Resolver.js:716 
+    [kipipl-main]/[enhanced-resolve]/lib/Resolver.js:716:21
+  
+  
+  - ResolverCachePlugin.js:369 done
+    [kipipl-main]/[webpack]/lib/cache/ResolverCachePlugin.js:369:13
+  
+  - ResolverCachePlugin.js:204 
+    [kipipl-main]/[webpack]/lib/cache/ResolverCachePlugin.js:204:22
+  
+  - Resolver.js:716 
+    [kipipl-main]/[enhanced-resolve]/lib/Resolver.js:716:21
+  
+  
+  - Resolver.js:716 
+    [kipipl-main]/[enhanced-resolve]/lib/Resolver.js:716:21
+  
+  
+  - DescriptionFilePlugin.js:58 
+    [kipipl-main]/[enhanced-resolve]/lib/DescriptionFilePlugin.js:58:24
+  
+  - DescriptionFileUtils.js:146 
+    [kipipl-main]/[enhanced-resolve]/lib/DescriptionFileUtils.js:146:21
+  
+  - forEachBail.js:39 
+    [kipipl-main]/[enhanced-resolve]/lib/forEachBail.js:39:13
+  
+  - DescriptionFileUtils.js:131 onJson
+    [kipipl-main]/[enhanced-resolve]/lib/DescriptionFileUtils.js:131:14
+  
+  - DescriptionFileUtils.js:81 
+    [kipipl-main]/[enhanced-resolve]/lib/DescriptionFileUtils.js:81:15
+  
+  - task_queues:88 process.processTicksAndRejections
+    node:internal/process/task_queues:88:21
+  
+  - child-compiler.js:211 
+    [kipipl-main]/[html-webpack-plugin]/lib/child-compiler.js:211:18
+  
+  - Compiler.js:625 finalCallback
+    [kipipl-main]/[webpack]/lib/Compiler.js:625:5
+  
+  - Compiler.js:661 
+    [kipipl-main]/[webpack]/lib/Compiler.js:661:11
+  
+  - Compiler.js:1347 
+    [kipipl-main]/[webpack]/lib/Compiler.js:1347:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [kipipl-main]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1343 
+    [kipipl-main]/[webpack]/lib/Compiler.js:1343:33
+  
+  - Compilation.js:3061 finalCallback
+    [kipipl-main]/[webpack]/lib/Compilation.js:3061:11
+  
+  - Compilation.js:3404 
+    [kipipl-main]/[webpack]/lib/Compilation.js:3404:11
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [kipipl-main]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:3397 
+    [kipipl-main]/[webpack]/lib/Compilation.js:3397:38
+  
+  
+  - Compilation.js:605 
+    [kipipl-main]/[webpack]/lib/Compilation.js:605:11
+  
+  - SourceMapDevToolPlugin.js:601 
+    [kipipl-main]/[webpack]/lib/SourceMapDevToolPlugin.js:601:10
+  
+  - async.js:2830 
+    [kipipl-main]/[neo-async]/async.js:2830:7
+  
+  - async.js:2857 Object.each
+    [kipipl-main]/[neo-async]/async.js:2857:9
+  
+  - SourceMapDevToolPlugin.js:417 
+    [kipipl-main]/[webpack]/lib/SourceMapDevToolPlugin.js:417:17
+  
+  - async.js:2830 
+    [kipipl-main]/[neo-async]/async.js:2830:7
+  
+  - async.js:2857 Object.each
+    [kipipl-main]/[neo-async]/async.js:2857:9
+  
+  - SourceMapDevToolPlugin.js:224 
+    [kipipl-main]/[webpack]/lib/SourceMapDevToolPlugin.js:224:15
+  
+  - Compilation.js:587 fn
+    [kipipl-main]/[webpack]/lib/Compilation.js:587:9
+  
+  
+  
+  - Compilation.js:562 fn
+    [kipipl-main]/[webpack]/lib/Compilation.js:562:9
+
+1 ERROR in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+webpack compiled with 6 errors
+Compiling...
+Failed to compile.
+
+[eslint] 
+src\App.js
+Syntax error: Unexpected token (14:1) (14:1)
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src\App.js: Unexpected token (14:1)
+
+  12 | import Blog from "./knowledge/Blog";
+  13 | import FAQs from "./knowledge/FAQ";
+> 14 | <<<<<<< HEAD
+     |  ^
+  15 | import Tilefix from "./components/Tilefix";
+  16 | =======
+  17 | import Tilefix from "./knowledge/Tilefix";
+    at constructor (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:19082)
+    at FlowParserMixin.raise (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:178064)
+    at FlowParserMixin.unexpected (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:178597)
+    at FlowParserMixin.jsxParseIdentifier (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:133750)
+    at FlowParserMixin.jsxParseNamespacedName (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:133898)
+    at FlowParserMixin.jsxParseElementName (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:134163)
+    at FlowParserMixin.jsxParseOpeningElementAt (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:136125)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:136820)
+    at FlowParserMixin.jsxParseElement (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:138564)
+    at FlowParserMixin.parseExprAtom (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:138747)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:300709)
+    at FlowParserMixin.parseUpdate (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:300190)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:299571)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:295445)
+    at FlowParserMixin.parseExprOps (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:295619)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:294891)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:293373)
+    at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:110154
+    at FlowParserMixin.tryParse (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:184641)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:110135)
+    at FlowParserMixin.parseExpressionBase (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:292090)
+    at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:291955
+    at FlowParserMixin.allowInAnd (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:335812)
+    at FlowParserMixin.parseExpression (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:291935)
+    at FlowParserMixin.parseStatementContent (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:346272)
+    at FlowParserMixin.parseStatementLike (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:343103)
+    at FlowParserMixin.parseStatementLike (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:93846)
+    at FlowParserMixin.parseModuleItem (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:342582)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:357657)
+    at FlowParserMixin.parseBlockBody (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:357337)
+    at FlowParserMixin.parseProgram (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:339720)
+    at FlowParserMixin.parseTopLevel (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:339383)
+    at FlowParserMixin.parseTopLevel (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:116191)
+    at FlowParserMixin.parse (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:390221)
+    at parse (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:390969)
+    at parser (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\core\lib\parser\index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\core\lib\transformation\index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\core\lib\transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\gensync\index.js:261:32)
+    at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\gensync\index.js:273:13
+    at async.call.result.err.err (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\gensync\index.js:223:11)
+
+ERROR in [eslint] 
+src\App.js
+  Line 14:1:  Parsing error: Unexpected token (14:1)
+
+webpack compiled with 2 errors
+Compiling...
+Failed to compile.
+
+SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src\components\Navbar.jsx: Unexpected token (25:1)
+  23 | import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
+  24 | import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
+> 25 | <<<<<<< HEAD
+     |  ^
+  26 | =======
+  27 | import ConstructionOutlinedIcon from "@mui/icons-material/ConstructionOutlined";
+  28 | >>>>>>> e5a0e02f1fc38dfe9e4e82b7dcad89b74dfe2727
+    at parser.next (<anonymous>)
+    at normalizeFile.next (<anonymous>)
+    at run.next (<anonymous>)
+    at transform.next (<anonymous>)
+ERROR in ./src/components/Navbar.jsx
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src\components\Navbar.jsx: Unexpected token (25:1)
+
+  23 | import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
+  24 | import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
+> 25 | <<<<<<< HEAD
+     |  ^
+  26 | =======
+  27 | import ConstructionOutlinedIcon from "@mui/icons-material/ConstructionOutlined";
+  28 | >>>>>>> e5a0e02f1fc38dfe9e4e82b7dcad89b74dfe2727
+    at constructor (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:19082)
+    at FlowParserMixin.raise (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:178064)
+    at FlowParserMixin.unexpected (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:178597)
+    at FlowParserMixin.jsxParseIdentifier (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:133750)
+    at FlowParserMixin.jsxParseNamespacedName (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:133898)
+    at FlowParserMixin.jsxParseElementName (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:134163)
+    at FlowParserMixin.jsxParseOpeningElementAt (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:136125)
+    at FlowParserMixin.jsxParseElementAt (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:136820)
+    at FlowParserMixin.jsxParseElement (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:138564)
+    at FlowParserMixin.parseExprAtom (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:138747)
+    at FlowParserMixin.parseExprSubscripts (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:300709)
+    at FlowParserMixin.parseUpdate (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:300190)
+    at FlowParserMixin.parseMaybeUnary (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:299571)
+    at FlowParserMixin.parseMaybeUnaryOrPrivate (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:295445)
+    at FlowParserMixin.parseExprOps (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:295619)
+    at FlowParserMixin.parseMaybeConditional (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:294891)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:293373)
+    at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:110154
+    at FlowParserMixin.tryParse (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:184641)
+    at FlowParserMixin.parseMaybeAssign (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:110135)
+    at FlowParserMixin.parseExpressionBase (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:292090)
+    at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:291955
+    at FlowParserMixin.allowInAnd (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:335812)
+    at FlowParserMixin.parseExpression (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:291935)
+    at FlowParserMixin.parseStatementContent (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:346272)
+    at FlowParserMixin.parseStatementLike (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:343103)
+    at FlowParserMixin.parseStatementLike (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:93846)
+    at FlowParserMixin.parseModuleItem (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:342582)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:357657)
+    at FlowParserMixin.parseBlockBody (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:357337)
+    at FlowParserMixin.parseProgram (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:339720)
+    at FlowParserMixin.parseTopLevel (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:339383)
+    at FlowParserMixin.parseTopLevel (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:116191)
+    at FlowParserMixin.parse (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:390221)
+    at parse (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\parser\lib\index.js:1:390969)
+    at parser (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\core\lib\parser\index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\core\lib\transformation\normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\core\lib\transformation\index.js:22:50)
+    at run.next (<anonymous>)
+    at transform (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\@babel\core\lib\transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\gensync\index.js:261:32)
+    at C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\gensync\index.js:273:13
+    at async.call.result.err.err (C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\node_modules\gensync\index.js:223:11)
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
