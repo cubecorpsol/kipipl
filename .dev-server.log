@@ -1,0 +1,109 @@
+
+> KIPIPL@0.1.0 start
+> react-scripts start
+
+Starting the development server...
+
+Compiled successfully!
+
+You can now view KIPIPL in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.18.100:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+ERROR in ./src/App.js 16:0-42
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+ERROR in ./src/App.js 16:0-42
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+WARNING in [eslint] 
+src\components\Navbar.jsx
+  Line 153:29:  Unnecessary escape character: \"  no-useless-escape
+  Line 153:31:  Unnecessary escape character: \"  no-useless-escape
+
+ERROR in ./src/App.js 16:0-42
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+
+webpack compiled with 1 error and 1 warning
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+ERROR in ./src/App.js 16:0-42
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+ERROR in ./src/App.js 16:0-42
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+
+webpack compiled with 1 error
+Compiling...
+Failed to compile.
+
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+ERROR in ./src/App.js 16:0-42
+Module not found: Error: Can't resolve './knowledge/Tilefix' in 'C:\Users\Manoj\Downloads\kipipl-main\kipipl-main\src'
+
+webpack compiled with 1 error
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
+Compiling...
+Compiled successfully!
+webpack compiled successfully
