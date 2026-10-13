@@ -12,11 +12,13 @@ import ServiceLocations from "./knowledge/service-locations";
 import Blog from "./knowledge/Blog";
 import FAQs from "./knowledge/FAQ";
 import Tilefix from "./components/Tilefix";
+import Seo from "./components/Seo";
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <Seo />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

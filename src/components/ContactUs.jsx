@@ -261,7 +261,7 @@ const ContactUs = () => {
             >
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.8316471816406!2d77.63352077504781!3d11.181547888992913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba973f15612601b%3A0xb9b7f23dca1abd60!2skannan%20blue%20metals!5e1!3m2!1sen!2sin!4v1732162210601!5m2!1sen!2sin"
-                title="Location Map"
+                title="KIPIPL location map in Chennimalai"
                 style={{
                   width: "100%",
                   height: "100%",
@@ -285,6 +285,7 @@ const ContactUs = () => {
               }}
             >
               <Typography
+                component="h2"
                 sx={{
                   fontWeight: "700",
                   fontSize: "24px",

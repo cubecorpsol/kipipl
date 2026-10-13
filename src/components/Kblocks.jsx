@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+
 import {
   Box,
   Button,
@@ -7,6 +8,7 @@ import {
   Grid,
   Typography,
 } from '@mui/material';
+
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 import kblocks from '../Assests/K-Blocks.png';
@@ -34,6 +36,10 @@ const KBlocks = () => {
 
   return (
     <Grid container>
+
+      {/* =========================
+          K BLOCKS MAIN SECTION
+          ========================= */}
       <Grid
         item
         xs={12}
@@ -63,7 +69,10 @@ const KBlocks = () => {
               overflow: 'hidden',
             }}
           >
-            {/* TOP SECTION */}
+
+            {/* =========================
+                TOP SECTION
+                ========================= */}
             <Box
               sx={{
                 display: 'flex',
@@ -75,7 +84,10 @@ const KBlocks = () => {
                 py: { xs: 5, md: 7 },
               }}
             >
-              {/* LEFT IMAGE */}
+
+              {/* =========================
+                  LEFT IMAGE
+                  ========================= */}
               <Box
                 sx={{
                   flex: 1,
@@ -87,7 +99,7 @@ const KBlocks = () => {
                 <Box
                   component="img"
                   src={kblocks}
-                  alt="K Blocks"
+                  alt="K Blocks supplier in Chennimalai and Perundurai - KIPIPL"
                   sx={{
                     width: '100%',
                     maxWidth: '620px',
@@ -99,7 +111,9 @@ const KBlocks = () => {
                 />
               </Box>
 
-              {/* RIGHT CONTENT */}
+              {/* =========================
+                  RIGHT CONTENT
+                  ========================= */}
               <Box
                 sx={{
                   flex: 1,
@@ -109,8 +123,10 @@ const KBlocks = () => {
                   pt: { md: 1 },
                 }}
               >
-                {/* Main Heading */}
+
+                {/* Main SEO Heading */}
                 <Typography
+                  component="h2"
                   variant="h3"
                   sx={{
                     fontWeight: 700,
@@ -122,7 +138,7 @@ const KBlocks = () => {
                   }}
                 >
                   <span style={{ color: '#F5A000' }}>K</span>{' '}
-                  <span style={{ color: '#111111' }}> Blocks</span>
+                  <span style={{ color: '#111111' }}>Blocks</span>
                 </Typography>
 
                 {/* Divider */}
@@ -136,8 +152,9 @@ const KBlocks = () => {
                   }}
                 />
 
-                {/* Description */}
+                {/* SEO Description */}
                 <Typography
+                  component="p"
                   variant="body1"
                   sx={{
                     color: '#4A4A4A',
@@ -150,19 +167,26 @@ const KBlocks = () => {
                     letterSpacing: '0.2px',
                   }}
                 >
-                  We take pride in manufacturing premium-quality solid blocks
-                  designed for durability, strength, and sustainable
-                  construction. Our fully automated production plant ensures
-                  precision, consistency, and high performance in every block
-                  delivered.
+                  KIPIPL manufactures and supplies premium-quality K Blocks
+                  designed for strong, durable and sustainable construction.
+                  As a trusted K Blocks supplier serving Chennimalai,
+                  Perundurai and surrounding areas, we provide reliable solid
+                  blocks for residential, commercial and infrastructure
+                  projects.
+
                   <br />
                   <br />
-                  Advanced high-pressure machinery, crane-supported delivery,
-                  and rigorous compression testing guarantee reliable products
-                  for residential, commercial, and infrastructure projects.
+
+                  Our fully automated production plant ensures precision,
+                  consistency and high performance in every block. Advanced
+                  high-pressure machinery, crane-supported delivery and
+                  rigorous compression testing help ensure reliable K Blocks
+                  for construction projects.
                 </Typography>
 
-                {/* BUTTONS */}
+                {/* =========================
+                    BUTTONS
+                    ========================= */}
                 <Box
                   sx={{
                     display: 'flex',
@@ -171,6 +195,8 @@ const KBlocks = () => {
                     alignItems: { xs: 'start', sm: 'center' },
                   }}
                 >
+
+                  {/* View Products Button */}
                   <Button
                     variant="contained"
                     sx={{
@@ -194,6 +220,7 @@ const KBlocks = () => {
                     View Products
                   </Button>
 
+                  {/* WhatsApp Button */}
                   <Button
                     variant="contained"
                     sx={{
@@ -210,7 +237,10 @@ const KBlocks = () => {
                       },
                     }}
                     onClick={() =>
-                      window.open('https://wa.me/919942530590', '_blank')
+                      window.open(
+                        'https://wa.me/919942530590',
+                        '_blank'
+                      )
                     }
                   >
                     <WhatsAppIcon />
@@ -227,12 +257,17 @@ const KBlocks = () => {
                       Chat on WhatsApp
                     </Typography>
                   </Button>
+
                 </Box>
               </Box>
             </Box>
 
-            {/* GALLERY SECTION */}
+            {/* =========================
+                IMAGE GALLERY
+                ========================= */}
             <Box
+              component="section"
+              aria-label="K Blocks product gallery"
               sx={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -247,20 +282,45 @@ const KBlocks = () => {
               }}
             >
               {[
-                Kblockslogo,
-                kblock1,
-                kblock2,
-                Kblocks1,
-                Kblocks2,
-                Kblocks3,
-                kblock3,
-                Kblocks4,
-              ].map((image, index) => (
+                {
+                  image: Kblockslogo,
+                  alt: 'KIPIPL K Blocks product',
+                },
+                {
+                  image: kblock1,
+                  alt: 'K Blocks construction material from KIPIPL',
+                },
+                {
+                  image: kblock2,
+                  alt: 'Solid K Blocks for construction projects',
+                },
+                {
+                  image: Kblocks1,
+                  alt: 'K Blocks manufacturing at KIPIPL',
+                },
+                {
+                  image: Kblocks2,
+                  alt: 'K Blocks supplied by KIPIPL Chennimalai',
+                },
+                {
+                  image: Kblocks3,
+                  alt: 'K Blocks construction products in Chennimalai',
+                },
+                {
+                  image: kblock3,
+                  alt: 'K Block solid concrete construction blocks',
+                },
+                {
+                  image: Kblocks4,
+                  alt: 'K Blocks supplier in Perundurai and nearby areas',
+                },
+              ].map((item, index) => (
                 <Box
                   component="img"
                   key={index}
-                  src={image}
-                  alt={`Image ${index + 1}`}
+                  src={item.image}
+                  alt={item.alt}
+                  loading="lazy"
                   sx={{
                     width: { xs: '115px', md: '145px' },
                     height: { xs: '115px', md: '145px' },
@@ -278,9 +338,13 @@ const KBlocks = () => {
               ))}
             </Box>
 
-            {/* PRODUCTS SECTION */}
+            {/* =========================
+                PRODUCTS SECTION
+                ========================= */}
             <Box
               ref={productSectionRef}
+              component="section"
+              aria-labelledby="kblocks-products-heading"
               sx={{
                 width: '100%',
                 boxSizing: { xs: 'border-box', md: 'content-box' },
@@ -289,9 +353,17 @@ const KBlocks = () => {
                 mb: { xs: 7, md: 9 },
               }}
             >
-              {/* Heading */}
-              <Box sx={{ textAlign: 'center', mb: 5 }}>
+
+              {/* Products Heading */}
+              <Box
+                sx={{
+                  textAlign: 'center',
+                  mb: 5,
+                }}
+              >
                 <Typography
+                  id="kblocks-products-heading"
+                  component="h3"
                   sx={{
                     fontWeight: 700,
                     fontSize: { xs: '28px', md: '38px' },
@@ -300,7 +372,7 @@ const KBlocks = () => {
                     letterSpacing: '0.2px',
                   }}
                 >
-                  Our Products
+                  Our K Block Products
                 </Typography>
 
                 <Divider
@@ -346,7 +418,10 @@ const KBlocks = () => {
                         background: '#fff',
                         border: '1.2px solid #e1dede',
                         borderRadius: '10px',
-                        boxSizing: { xs: 'border-box', md: 'content-box' },
+                        boxSizing: {
+                          xs: 'border-box',
+                          md: 'content-box',
+                        },
 
                         width: '100%',
                         maxWidth: '210px',
@@ -360,7 +435,8 @@ const KBlocks = () => {
 
                         textAlign: 'center',
 
-                        boxShadow: '0px 3px 10px rgba(0,0,0,0.04)',
+                        boxShadow:
+                          '0px 3px 10px rgba(0,0,0,0.04)',
                         transition: '0.3s ease',
 
                         cursor: 'pointer',
@@ -369,7 +445,8 @@ const KBlocks = () => {
                           backgroundColor: '#F5A000',
                           borderColor: '#F5A000',
                           transform: 'translateY(-3px)',
-                          boxShadow: '0px 6px 16px rgba(0,0,0,0.08)',
+                          boxShadow:
+                            '0px 6px 16px rgba(0,0,0,0.08)',
 
                           '& .productText': {
                             color: '#ffffff',
@@ -379,9 +456,13 @@ const KBlocks = () => {
                     >
                       <Typography
                         className="productText"
+                        component="p"
                         sx={{
                           fontWeight: 600,
-                          fontSize: { xs: '15px', md: '16px' },
+                          fontSize: {
+                            xs: '15px',
+                            md: '16px',
+                          },
                           color: '#1A1A1A',
                           letterSpacing: '0.2px',
                           transition: '0.3s ease',
@@ -393,10 +474,13 @@ const KBlocks = () => {
                   </Grid>
                 ))}
               </Grid>
+
             </Box>
+
           </Card>
         </Box>
       </Grid>
+
     </Grid>
   );
 };
