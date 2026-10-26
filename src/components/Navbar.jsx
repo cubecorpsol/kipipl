@@ -169,7 +169,7 @@ const Navbar = () => {
                 "&:hover::after": { transform: "scaleX(1)" },
               }}
             >
-              Try Fix Pro
+              TILE Fix Pro
             </Typography>
 
             {/* KNOWLEDGE Dropdown Button */}
@@ -301,7 +301,7 @@ const Navbar = () => {
                 goToTileFixPro();
               }}
             >
-              <ListItemText primary="TRY FIX PRO" />
+              <ListItemText primary="TILE FIX PRO" />
             </ListItem>
 
             {/* Mobile KNOWLEDGE section */}
