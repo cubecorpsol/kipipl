@@ -1629,7 +1629,7 @@ const faqsRight = [
 
                 <span>
 
-                  Murugathoosu Village, Chinnimatoor Taluk, Erode – 638051,
+                  Murugantholuvu, Chennimalai, Erode – 638051,
 
                   Tamil Nadu, India
 
@@ -1641,7 +1641,7 @@ const faqsRight = [
 
                 <Phone className="w-4 h-4 shrink-0" />
 
-                <span>+91 999 444 8888</span>
+                <span>+91 98428 30590</span>
 
               </div>
 
