@@ -1,8 +1,10 @@
 import { Grid, Box, Typography, Button, Divider } from '@mui/material';
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import aboutimg from '../Assests/aboutimg.png';
 
 const About = () => {
+  const onHome = useLocation().pathname === '/';
   return (
     <Grid
       container
@@ -47,6 +49,7 @@ const About = () => {
         >
           {/* Title Section */}
           <Typography
+            component={onHome ? 'h2' : 'h1'}
             variant="h3"
             sx={{
               fontWeight: 700,

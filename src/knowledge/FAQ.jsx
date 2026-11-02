@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import faqData from "./faqs.json";
 import {
   ChevronRight,
   ChevronDown,
@@ -46,7 +47,7 @@ const FaqAccordionItem = ({ q, a, isOpen, onToggle }) => (
         <span className="w-6 h-6 rounded-full bg-yellow-400 text-white flex items-center justify-center shrink-0">
           <Plus className="w-3.5 h-3.5" strokeWidth={2.5} />
         </span>
-        <h2 className="text-sm font-bold text-gray-900">{q}</h2>
+        <span className="text-sm font-bold text-gray-900">{q}</span>
       </div>
       <ChevronDown
         className={`w-4 h-4 text-gray-400 shrink-0 transition-transform ${
@@ -81,85 +82,7 @@ const StripItem = ({ Icon, title, desc }) => (
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState(null);
 
-  const faqs = [
-  {
-    q: "Where can I buy M Sand in Chennimalai?",
-    a: "KIPIPL supplies quality M Sand in Chennimalai and across its service locations in Erode, Tiruppur and Namakkal districts. Our M Sand is suitable for a wide range of construction applications including concrete work, masonry, plastering and infrastructure projects. Customers in Chennimalai can contact our team to enquire about the required quantity, current availability, pricing and delivery options for their construction project.",
-  },
-
-  {
-    q: "Who supplies P Sand in Chennimalai?",
-    a: "KIPIPL supplies P Sand in Chennimalai as part of its construction material range. P Sand is suitable for plastering and other applications where a finer and consistent sand material is required. We also serve customers across selected locations in Erode, Tiruppur and Namakkal districts. Contact our team with your project requirements to check P Sand availability, quantity, pricing and delivery options.",
-  },
-
-  {
-    q: "Where can I get Jally / Blue Metal in Chennimalai?",
-    a: "KIPIPL supplies quality Jally and Blue Metal aggregates for construction requirements in Chennimalai and surrounding areas. Blue Metal is commonly used for concreting, foundations, road works and other infrastructure applications. Customers can contact KIPIPL to enquire about suitable aggregate sizes, required quantities, pricing and availability based on their project requirements and site location.",
-  },
-
-  {
-    q: "What sizes of Blue Metal / Jally are available?",
-    a: "KIPIPL supplies Blue Metal and Jally in different sizes to meet various construction and infrastructure requirements. The suitable size depends on the type of work, such as concrete production, foundation work, road construction or other aggregate applications. Our team can help customers identify the appropriate material based on their project requirements. Contact us to enquire about currently available sizes, quantities and pricing.",
-  },
-
-  {
-    q: "Who supplies Ready Mix Concrete in Chennimalai?",
-    a: "KIPIPL supplies Ready Mix Concrete for construction projects in Chennimalai and its service areas. Ready Mix Concrete provides a convenient solution for projects that require consistent concrete supply for residential, commercial and infrastructure construction. Customers can contact our team with their site location, concrete requirement and approximate quantity to enquire about availability, pricing and delivery arrangements.",
-  },
-
-  {
-    q: "Do you supply Solid Blocks in Chennimalai?",
-    a: "Yes. KIPIPL supplies Solid Blocks for residential, commercial and other construction requirements in Chennimalai and across its service locations. Solid Blocks are suitable for various masonry and building applications. Customers can contact our team to enquire about available quantities, pricing and delivery options based on their construction site and project requirements.",
-  },
-
-  {
-    q: "Do you deliver construction materials to nearby areas?",
-    a: "KIPIPL serves customers across selected locations in Erode, Tiruppur and Namakkal districts with its range of construction materials. The available products include Ready Mix Concrete, Solid Blocks, M Sand and P Sand. Service availability can depend on the exact location and project requirements. Customers can contact our team with their site location and required material to confirm the available service and delivery options.",
-  },
-
-  {
-    q: "What areas are covered within 40 KM radius of Chennimalai?",
-    a: "KIPIPL serves Chennimalai and multiple locations across Erode, Tiruppur and Namakkal districts. Our listed service locations include Erode, Perundurai, Gobichettipalayam, Bhavani, Anthiyur, Chennimalai, Modakurichi, Kodumudi, Sivagiri and Arachalur in Erode District; Tiruppur, Kangeyam, Dharapuram and Uthukuli in Tiruppur District; and Namakkal, Tiruchengode and Kumarapalayam in Namakkal District. For a specific site location, customers can contact our team to confirm service availability.",
-  },
-
-  {
-    q: "Which locations does KIPIPL serve in Erode District?",
-    a: "KIPIPL serves 10 listed locations in Erode District: Erode, Perundurai, Gobichettipalayam, Bhavani, Anthiyur, Chennimalai, Modakurichi, Kodumudi, Sivagiri and Arachalur. The products available across these service locations include Ready Mix Concrete, Solid Blocks, M Sand and P Sand. Customers can contact our team to confirm product availability and service options for their specific location.",
-  },
-
-  {
-    q: "Which locations does KIPIPL serve in Tiruppur District?",
-    a: "KIPIPL serves 4 listed locations in Tiruppur District: Tiruppur, Kangeyam, Dharapuram and Uthukuli. Ready Mix Concrete, Solid Blocks, M Sand and P Sand are available as part of the listed product range. Customers can contact KIPIPL with their project location and material requirements to enquire about availability and service options.",
-  },
-
-  
-
-  {
-    q: "What construction materials does KIPIPL supply?",
-    a: "KIPIPL supplies a range of construction materials including Ready Mix Concrete, Solid Blocks, M Sand and P Sand across its listed service locations. These products are intended to support different residential, commercial and construction requirements. Customers can contact our team to enquire about the material best suited to their project, required quantity, pricing and service availability.",
-  },
-
-  {
-    q: "How can I place an order?",
-    a: "To place an order with KIPIPL, customers can contact our team directly or submit an enquiry through the Contact Us section of the website. When enquiring, it is helpful to provide the required product, approximate quantity and construction site location. Our team can then assist with product availability, pricing and the available service or delivery options for the project.",
-  },
-
-  {
-    q: "What is your contact number?",
-    a: "For product enquiries, orders, pricing and service-related questions, you can contact KIPIPL at +91 82206 24590 or +91 72008 30590. Our team can assist with enquiries related to M Sand, P Sand, Ready Mix Concrete, Solid Blocks and other construction material requirements across our listed service locations.",
-  },
-];
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map(({ q, a }) => ({
-      "@type": "Question",
-      name: q,
-      acceptedAnswer: { "@type": "Answer", text: a },
-    })),
-  };
   return (
-    <>
     <div className="w-full min-h-screen bg-white font-sans text-gray-900">
       {/* BREADCRUMB + HERO */}
       <section className="bg-gray-50">
@@ -218,7 +141,7 @@ export default function FAQ() {
       {/* FAQ LIST + CONTACT CARD */}
       <section className="max-w-7xl mx-auto px-6 py-14 grid lg:grid-cols-[1fr_320px] gap-8 items-start">
         <div className="space-y-3">
-          {faqs.map((f, i) => (
+          {faqData.map((f, i) => (
             <FaqAccordionItem
               key={f.q}
               q={f.q}
@@ -350,11 +273,5 @@ export default function FAQ() {
         </div>
       </section>
     </div>
-    <script
-      id="kipipl-faq-schema"
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-    />
-    </>
   );
 }
