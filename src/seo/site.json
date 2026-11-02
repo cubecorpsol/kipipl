@@ -1,0 +1,140 @@
+{
+  "siteUrl": "https://www.kipipl.com",
+  "image": "https://www.kipipl.com/kipipl.jpeg",
+  "business": {
+    "@type": "LocalBusiness",
+    "@id": "https://www.kipipl.com/#business",
+    "name": "KIPIPL - Kannan Infra Projects",
+    "alternateName": ["Kannan Blue Metals", "Kannan Infra Projects India Pvt Ltd"],
+    "url": "https://www.kipipl.com/",
+    "logo": "https://www.kipipl.com/kipipl.jpeg",
+    "image": "https://www.kipipl.com/kipipl.jpeg",
+    "email": "info@kipipl.com",
+    "telephone": ["+91 98428 30590", "+91 99425 30590"],
+    "foundingDate": "1990",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kannan Blue Metals, Murugantholuvu",
+      "addressLocality": "Chennimalai",
+      "addressRegion": "Tamil Nadu",
+      "postalCode": "638051",
+      "addressCountry": "IN"
+    },
+    "areaServed": ["Chennimalai", "Perundurai", "Erode", "Gobichettipalayam", "Bhavani", "Anthiyur", "Modakurichi", "Kodumudi", "Sivagiri", "Arachalur", "Tiruppur", "Kangeyam", "Dharapuram", "Uthukuli", "Tiruchengode", "Kumarapalayam"],
+    "knowsAbout": ["M Sand", "P Sand", "Blue Metal", "Jally", "Aggregates", "Ready Mix Concrete", "Solid Blocks", "Tile Adhesive"]
+  },
+  "pages": {
+    "/": {
+      "title": "KIPIPL | M Sand, Blue Metal & Ready Mix Supplier, Chennimalai",
+      "description": "KIPIPL supplies M Sand, P Sand, Blue Metal aggregates, K Blocks, Ready Mix Concrete and Tile Fix Pro across Chennimalai, Perundurai and Erode since 1990.",
+      "h1": "KIPIPL – M Sand, P Sand, Blue Metal and Ready Mix Concrete Supplier in Chennimalai",
+      "keywords": ["KIPIPL", "Kannan Infra Projects", "Kannan Blue Metals", "construction materials Chennimalai", "construction material supplier Erode", "M Sand Chennimalai", "M Sand supplier Erode", "P Sand Chennimalai", "plastering sand Erode", "Blue Metal Chennimalai", "jally supplier Erode", "aggregates supplier Perundurai", "Ready Mix Concrete Chennimalai", "RMC Erode", "solid blocks Chennimalai", "K Blocks Perundurai", "Tile Fix Pro", "tile adhesive Erode", "blue metal quarry near Erode", "building materials Tiruppur"],
+      "content": [
+        "With a legacy dating back to 1990, KIPIPL stands as a pioneer in the sand and aggregates industry. Operating from a 100-acre mining campus in Murugantholuvu, Chennimalai, home to 10 million tons of premium blue metal reserves, we supply M Sand, P Sand, Blue Metal aggregates, K Blocks solid blocks, Ready Mix Concrete and Tile Fix Pro tile adhesive.",
+        "Our 150 TPH 4-stage sand manufacturing plant produces sand that meets IS standards. As the nearest blue metal quarry to Erode, we deliver within two hours across Chennimalai, Perundurai, Erode, Tiruppur and Namakkal districts."
+      ]
+    },
+    "/about": {
+      "name": "About Us",
+      "title": "About KIPIPL | 30+ Years in Sand & Aggregates, Chennimalai",
+      "description": "KIPIPL has supplied sand and aggregates since 1990 from a 100-acre quarry in Chennimalai, with a 150 TPH sand plant and delivery to Erode within two hours.",
+      "h1": "About KIPIPL",
+      "keywords": ["about KIPIPL", "Kannan Infra Projects", "Kannan Blue Metals Chennimalai", "blue metal quarry Chennimalai", "sand manufacturing plant Erode", "150 TPH M Sand plant", "IS standard M Sand", "Murugantholuvu quarry", "aggregates company Tamil Nadu", "construction material manufacturer Erode"],
+      "content": [
+        "With a legacy dating back to 1990, we stand as pioneers in the sand and aggregates industry, driven by innovation and a steadfast commitment to quality. Operating from a 100-acre mining campus in Murungatholuvu, Chennimalai, home to 10 million tons of premium blue metal reserves, we redefine reliability in every order.",
+        "Our state-of-the-art 150 TPH 4-stage sand manufacturing plant, paired with advanced quality controls, ensures products that meet IS standards while minimizing our carbon footprint. Strategically located as the nearest blue metal quarry to Erode, we guarantee swift delivery within two hours, backed by exceptional service and sustainable practices."
+      ]
+    },
+    "/readymix": {
+      "name": "Ready Mix Concrete",
+      "title": "Ready Mix Concrete Supplier in Chennimalai & Erode | KIPIPL",
+      "description": "Order M10 to M40 Ready Mix Concrete from KIPIPL's twin shaft RMC plant, with boom pump support and delivery across Chennimalai, Perundurai and Erode.",
+      "h1": "Kannan Ready Mix Concrete",
+      "keywords": ["Ready Mix Concrete Chennimalai", "Ready Mix Concrete Erode", "Ready Mix Concrete Perundurai", "RMC plant Erode", "RMC supplier Tiruppur", "concrete supplier Chennimalai", "M20 concrete price Erode", "M25 Ready Mix", "M30 Ready Mix", "boom pump concrete Erode", "twin shaft RMC plant", "Kannan Ready Mix"],
+      "content": [
+        "Our Twin Shaft RMC Plant delivers premium-quality concrete using VSI-processed aggregates and high-grade M Sand. Engineered design mixes, efficient boom pump support and rapid delivery across Erode ensure reliable and precise concrete solutions for projects of every scale.",
+        "Every pour is monitored by experienced professionals and site coordinators to maintain superior strength, consistency and performance standards.",
+        "Grades available: M10, M15, M20, M25, M30, M35 and M40."
+      ]
+    },
+    "/kblocks": {
+      "name": "K Blocks",
+      "title": "K Blocks Solid Block Supplier in Chennimalai | KIPIPL",
+      "description": "Buy 4, 6 and 8 inch K Blocks solid blocks from KIPIPL, made on an automated high-pressure plant and delivered with crane support around Chennimalai.",
+      "h1": "K Blocks Solid Blocks",
+      "keywords": ["K Blocks", "solid blocks Chennimalai", "solid blocks Erode", "solid block supplier Perundurai", "concrete blocks Tiruppur", "4 inch solid block", "6 inch solid block", "8 inch solid block", "solid block price Erode", "cement blocks Chennimalai"],
+      "content": [
+        "We take pride in manufacturing premium-quality solid blocks designed for durability, strength and sustainable construction. Our fully automated production plant ensures precision, consistency and high performance in every block delivered.",
+        "Advanced high-pressure machinery, crane-supported delivery and rigorous compression testing guarantee reliable products for residential, commercial and infrastructure projects.",
+        "Sizes available: 4 inch, 6 inch and 8 inch solid blocks."
+      ]
+    },
+    "/bluemetals": {
+      "name": "Blue Metals",
+      "title": "Blue Metal & M Sand Supplier in Chennimalai | KIPIPL",
+      "description": "Kannan Blue Metals supplies M Sand, P Sand, 6 mm to 53 mm blue metal aggregates, rough stone and dust from its own quarry in Chennimalai, Erode district.",
+      "h1": "Kannan Blue Metals",
+      "keywords": ["Blue Metal Chennimalai", "Blue Metal Erode", "blue metal supplier Perundurai", "jally Chennimalai", "jally supplier Erode", "M Sand Chennimalai", "M Sand Erode", "P Sand Chennimalai", "P Sand Erode", "20mm jally", "40mm jally", "12mm blue metal", "6mm chips", "53mm aggregate", "rough stone Erode", "quarry dust Chennimalai", "aggregates supplier Tiruppur", "Kannan Blue Metals"],
+      "content": [
+        "We specialize in delivering premium-quality blue metals and aggregates with a strong focus on durability, consistency and customer satisfaction. Backed by advanced manufacturing processes and reliable logistics, we ensure timely supply for construction and infrastructure projects of all scales.",
+        "Every product is processed with strict quality standards to deliver superior performance, strength and long-lasting reliability for every construction requirement.",
+        "Products: M-Sand, P-Sand, 6 mm, 12 mm, 20 mm, 40 mm and 53 mm blue metal, rough stone and dust."
+      ]
+    },
+    "/tile-fixpro": {
+      "name": "Tile Fix Pro",
+      "title": "Tile Fix Pro Tile Adhesive | KIPIPL Chennimalai",
+      "description": "Tile Fix Pro is a cement-based tile adhesive for ceramic, vitrified, large-format and floor tiles. Available in 20 kg bags from KIPIPL, Chennimalai.",
+      "h1": "Tile Fix Pro",
+      "keywords": ["Tile Fix Pro", "tile adhesive Chennimalai", "tile adhesive Erode", "tile adhesive Tiruppur", "Latafix Floor Tile Adhesive 305", "vitrified tile adhesive", "ceramic tile adhesive", "large format tile adhesive", "floor tile adhesive", "cement based tile adhesive", "tile fixing chemical Erode", "20 kg tile adhesive bag"],
+      "content": [
+        "High-performance tile adhesive engineered for strong bonding, reliable holding strength and easy application across modern tile installations.",
+        "Tile Fix Pro – Latafix Floor Tile Adhesive 305 is a high-performance cement-based adhesive formulated for excellent bonding strength, water resistance and ease of application. Designed for ceramic, vitrified and large-format tiles, it ensures long-lasting and durable tile installations.",
+        "From residential spaces to commercial projects, Tile Fix Pro is designed to help professionals achieve a secure, precise and dependable tile installation."
+      ]
+    },
+    "/contact": {
+      "name": "Contact Us",
+      "title": "Contact KIPIPL | Kannan Blue Metals, Chennimalai",
+      "description": "Call +91 98428 30590 or email info@kipipl.com for prices and orders of sand, blue metal, K Blocks and Ready Mix Concrete from KIPIPL, Chennimalai.",
+      "h1": "Contact KIPIPL",
+      "keywords": ["contact KIPIPL", "Kannan Blue Metals contact number", "Kannan Blue Metals address", "M Sand price Chennimalai", "blue metal price Erode", "Ready Mix Concrete price Erode", "solid block price Chennimalai", "construction material dealer near me", "Murugantholuvu Chennimalai"],
+      "content": [
+        "Address: Kannan Blue Metals, Murugantholuvu, Chennimalai, Tamil Nadu 638051.",
+        "Phone: +91 98428 30590, +91 99425 30590. Email: info@kipipl.com."
+      ]
+    },
+    "/knowledge/service-locations": {
+      "name": "Service Locations",
+      "title": "KIPIPL Service Locations | Erode, Tiruppur & Namakkal",
+      "description": "KIPIPL delivers Ready Mix Concrete, solid blocks, M Sand and P Sand to 16+ locations across Erode, Tiruppur and Namakkal districts in Tamil Nadu.",
+      "h1": "Delivering Quality Construction Materials Across Tamil Nadu",
+      "keywords": ["M Sand Erode", "M Sand Perundurai", "M Sand Gobichettipalayam", "M Sand Bhavani", "M Sand Tiruppur", "M Sand Kangeyam", "M Sand Dharapuram", "M Sand Tiruchengode", "Ready Mix Concrete Gobi", "Ready Mix Concrete Tiruppur", "solid blocks Bhavani", "blue metal Anthiyur", "construction materials Modakurichi", "construction materials Kodumudi", "Sivagiri", "Arachalur", "Uthukuli", "Kumarapalayam"],
+      "content": [
+        "KIPIPL supplies Ready Mix Concrete, Solid Blocks, M Sand, P Sand and premium Blue Metal aggregates across major districts of Tamil Nadu. With our own quarry, advanced manufacturing facilities and reliable logistics network, we ensure timely delivery and consistent quality for residential, commercial, industrial and infrastructure projects.",
+        "Erode District: Erode, Perundurai, Gobichettipalayam, Bhavani, Anthiyur, Chennimalai, Modakurichi, Kodumudi, Sivagiri, Arachalur.",
+        "Tiruppur District: Tiruppur, Kangeyam, Dharapuram, Uthukuli.",
+        "Namakkal District: Tiruchengode, Kumarapalayam."
+      ]
+    },
+    "/knowledge/blog": {
+      "name": "Blog",
+      "title": "Construction Materials Blog | KIPIPL",
+      "description": "Guides and industry updates from KIPIPL on M Sand, P Sand, blue metal aggregates, solid blocks and Ready Mix Concrete for builders in Tamil Nadu.",
+      "h1": "Construction Knowledge & Industry Insights",
+      "keywords": ["M Sand vs River Sand", "construction blog Tamil Nadu", "M Sand conveyor automation", "sand sieving technology", "electric excavator mining", "quarry automation", "aggregates industry news"],
+      "content": [
+        "Articles: Electric Excavator – The Future of Sustainable Mining; Grey Matter – A Concept Farmhouse; Thermal & Sonic Sand Sieving Technology; M-Sand Conveyor Automation – Efficiency in Motion; Computer Vision–Based Jaw Automation; M-Sand vs River Sand."
+      ]
+    },
+    "/knowledge/faqs": {
+      "name": "FAQs",
+      "title": "FAQs on M Sand, Blocks & Ready Mix Concrete | KIPIPL",
+      "description": "Answers to common questions about KIPIPL's M Sand, P Sand, solid blocks and Ready Mix Concrete, service areas, ordering and delivery in Tamil Nadu.",
+      "h1": "Frequently Asked Questions",
+      "keywords": ["where to buy M Sand in Chennimalai", "P Sand supplier Chennimalai", "jally sizes", "blue metal sizes", "Ready Mix Concrete supplier Chennimalai", "solid blocks Chennimalai", "M Sand delivery Erode", "construction material FAQ"],
+      "content": [],
+      "faqs": true
+    }
+  }
+}

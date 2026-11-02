@@ -89,7 +89,7 @@ const Navbar = () => {
           backgroundColor: "white",
           boxShadow: "0px 0px 4px rgba(0, 0, 0, 0.1)",
           borderBottom: "1px solid #E5F1FF",
-          zIndex: 1300,
+          zIndex: 1301,
         }}
       >
         <Toolbar sx={{ justifyContent: "space-between" }}>
@@ -274,7 +274,9 @@ const Navbar = () => {
           <IconButton
             edge="end"
             sx={{ display: { xs: "block", md: "none" } }}
-            onClick={() => setDrawerOpen(true)}
+            aria-label={drawerOpen ? "Close menu" : "Open menu"}
+            aria-expanded={drawerOpen}
+            onClick={() => setDrawerOpen((open) => !open)}
           >
             <MenuIcon />
           </IconButton>
@@ -282,8 +284,10 @@ const Navbar = () => {
       </AppBar>
 
       {/* Drawer for Mobile */}
-      <Drawer anchor="left" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
-        <Box sx={{ width: 260, pt: { xs: "20px", md: 0 } }} role="presentation">
+      {/* Opens under the AppBar (zIndex 1301) so the hamburger stays clickable to close it */}
+      <Drawer anchor="right" open={drawerOpen} onClose={() => setDrawerOpen(false)}>
+        <Toolbar sx={{ minHeight: { xs: 72 } }} />
+        <Box sx={{ width: 260 }} role="presentation">
           <List>
             {navLinks.map((item, index) => (
               <ListItem button key={index} onClick={() => handleNavigation(item.id)}>

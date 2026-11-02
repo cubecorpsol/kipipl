@@ -1,4 +1,18 @@
 User-agent: *
 Allow: /
 
+# Search and AI crawlers are welcome
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Google-Extended
+User-agent: Applebot
+Allow: /
+
 Sitemap: https://www.kipipl.com/sitemap.xml
