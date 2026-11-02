@@ -11,18 +11,21 @@ import Contact from "./components/ContactUs";
 import ServiceLocations from "./knowledge/service-locations";
 import Blog from "./knowledge/Blog";
 import FAQs from "./knowledge/FAQ";
-import Tilefix from "./knowledge/Tilefix";
+import Tilefix from "./components/Tilefix";
+import Seo from "./components/Seo";
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <Seo />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/kblocks" element={<Kblocks />} />
         <Route path="/bluemetals" element={<BlueMetals />} />
         <Route path="/readymix" element={<ReadyMix />} />
+        <Route path="/tile-fixpro" element={<Tilefix />} />
         <Route path="/contact" element={<Contact />} />
         <Route
   path="/knowledge/service-locations"
@@ -33,10 +36,6 @@ function App() {
     path="/knowledge/faqs"
     element={<FAQs />}
   />
-  <Route
-  path="/knowledge/tile-fix-pro"
-  element={<Tilefix />}
-/>
       </Routes>
       
     </Router>

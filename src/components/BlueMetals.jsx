@@ -6,7 +6,9 @@ import {
   Grid,
   Typography,
 } from '@mui/material';
+
 import React, { useRef } from 'react';
+
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 import ReadyMix1 from '../Assests/bluemetal.jpeg';
@@ -31,6 +33,10 @@ const BlueMetals = () => {
 
   return (
     <Grid container>
+
+      {/* =========================
+          BLUE METALS MAIN SECTION
+          ========================= */}
       <Grid
         item
         xs={12}
@@ -60,7 +66,10 @@ const BlueMetals = () => {
               overflow: 'hidden',
             }}
           >
-            {/* TOP SECTION */}
+
+            {/* =========================
+                TOP SECTION
+                ========================= */}
             <Box
               sx={{
                 display: 'flex',
@@ -72,7 +81,10 @@ const BlueMetals = () => {
                 py: { xs: 5, md: 7 },
               }}
             >
-              {/* LEFT CONTENT */}
+
+              {/* =========================
+                  LEFT CONTENT
+                  ========================= */}
               <Box
                 sx={{
                   flex: 1,
@@ -82,8 +94,10 @@ const BlueMetals = () => {
                   pt: { md: 1 },
                 }}
               >
-                {/* Main Heading */}
+
+                {/* Main SEO Heading */}
                 <Typography
+                  component="h2"
                   variant="h3"
                   sx={{
                     fontWeight: 700,
@@ -94,8 +108,12 @@ const BlueMetals = () => {
                     letterSpacing: '0.2px',
                   }}
                 >
-                  <span style={{ color: '#F5A000' }}>Kannan</span>{' '}
-                  <span style={{ color: '#111111' }}>Blue Metals</span>
+                  <span style={{ color: '#F5A000' }}>
+                    Kannan
+                  </span>{' '}
+                  <span style={{ color: '#111111' }}>
+                    Blue Metals
+                  </span>
                 </Typography>
 
                 {/* Divider */}
@@ -109,8 +127,9 @@ const BlueMetals = () => {
                   }}
                 />
 
-                {/* Description */}
+                {/* SEO Description */}
                 <Typography
+                  component="p"
                   variant="body1"
                   sx={{
                     color: '#4A4A4A',
@@ -123,19 +142,27 @@ const BlueMetals = () => {
                     letterSpacing: '0.2px',
                   }}
                 >
-                  We specialize in delivering premium-quality blue metals and
-                  aggregates with a strong focus on durability, consistency,
-                  and customer satisfaction. Backed by advanced manufacturing
-                  processes and reliable logistics, we ensure timely supply
-                  for construction and infrastructure projects of all scales.
+                  KIPIPL supplies premium-quality Blue Metals and
+                  construction aggregates for residential, commercial
+                  and infrastructure projects. We serve customers
+                  looking for a reliable Blue Metal supplier in
+                  Chennimalai, Perundurai and surrounding areas.
+
                   <br />
                   <br />
-                  Every product is processed with strict quality standards to
-                  deliver superior performance, strength, and long-lasting
-                  reliability for every construction requirement.
+
+                  Our Blue Metals and aggregates are processed with
+                  strict quality standards to provide excellent
+                  strength, durability, consistency and long-lasting
+                  performance for a wide range of construction
+                  requirements. Our product range includes M-Sand,
+                  P-Sand, 6 mm, 12 mm, 20 mm, 40 mm and 53 mm
+                  aggregates, Rough Stone and Dust.
                 </Typography>
 
-                {/* BUTTONS */}
+                {/* =========================
+                    BUTTONS
+                    ========================= */}
                 <Box
                   sx={{
                     display: 'flex',
@@ -144,6 +171,7 @@ const BlueMetals = () => {
                     alignItems: { xs: 'start', sm: 'center' },
                   }}
                 >
+
                   {/* View Products Button */}
                   <Button
                     variant="contained"
@@ -185,7 +213,10 @@ const BlueMetals = () => {
                       },
                     }}
                     onClick={() =>
-                      window.open('https://wa.me/918220624590', '_blank')
+                      window.open(
+                        'https://wa.me/918220624590',
+                        '_blank'
+                      )
                     }
                   >
                     <WhatsAppIcon />
@@ -202,10 +233,13 @@ const BlueMetals = () => {
                       Chat on WhatsApp
                     </Typography>
                   </Button>
+
                 </Box>
               </Box>
 
-              {/* RIGHT IMAGE */}
+              {/* =========================
+                  RIGHT IMAGE
+                  ========================= */}
               <Box
                 sx={{
                   flex: 1,
@@ -217,7 +251,7 @@ const BlueMetals = () => {
                 <Box
                   component="img"
                   src={ReadyMix1}
-                  alt="Blue Metals"
+                  alt="Blue Metal aggregates supplier in Chennimalai and Perundurai - KIPIPL"
                   sx={{
                     width: '100%',
                     maxWidth: '620px',
@@ -228,10 +262,15 @@ const BlueMetals = () => {
                   }}
                 />
               </Box>
+
             </Box>
 
-            {/* GALLERY SECTION */}
+            {/* =========================
+                BLUE METALS GALLERY
+                ========================= */}
             <Box
+              component="section"
+              aria-label="Blue Metals and aggregates product gallery"
               sx={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -246,19 +285,41 @@ const BlueMetals = () => {
               }}
             >
               {[
-                kanna,
-                blue1,
-                blue2,
-                blue3,
-                blue4,
-                blue5,
-                blue6,
-              ].map((image, index) => (
+                {
+                  image: kanna,
+                  alt: 'Kannan Blue Metals construction aggregates',
+                },
+                {
+                  image: blue1,
+                  alt: 'Blue Metal aggregate supplied by KIPIPL',
+                },
+                {
+                  image: blue2,
+                  alt: 'Construction Blue Metals in Chennimalai',
+                },
+                {
+                  image: blue3,
+                  alt: 'Blue Metal aggregates for construction projects',
+                },
+                {
+                  image: blue4,
+                  alt: 'Quality Blue Metals supplier in Perundurai',
+                },
+                {
+                  image: blue5,
+                  alt: 'KIPIPL Blue Metal construction materials',
+                },
+                {
+                  image: blue6,
+                  alt: 'Blue Metal aggregate products from KIPIPL',
+                },
+              ].map((item, index) => (
                 <Box
                   component="img"
                   key={index}
-                  src={image}
-                  alt={`Image ${index + 1}`}
+                  src={item.image}
+                  alt={item.alt}
+                  loading="lazy"
                   sx={{
                     width: { xs: '115px', md: '165px' },
                     height: { xs: '115px', md: '165px' },
@@ -276,9 +337,13 @@ const BlueMetals = () => {
               ))}
             </Box>
 
-            {/* PRODUCTS SECTION */}
+            {/* =========================
+                PRODUCTS SECTION
+                ========================= */}
             <Box
               ref={productSectionRef}
+              component="section"
+              aria-labelledby="blue-metals-products-heading"
               sx={{
                 width: '100%',
                 boxSizing: { xs: 'border-box', md: 'content-box' },
@@ -287,9 +352,17 @@ const BlueMetals = () => {
                 mb: { xs: 7, md: 9 },
               }}
             >
-              {/* Heading */}
-              <Box sx={{ textAlign: 'center', mb: 5 }}>
+
+              {/* Products Heading */}
+              <Box
+                sx={{
+                  textAlign: 'center',
+                  mb: 5,
+                }}
+              >
                 <Typography
+                  id="blue-metals-products-heading"
+                  component="h3"
                   sx={{
                     fontWeight: 700,
                     fontSize: { xs: '28px', md: '38px' },
@@ -298,7 +371,7 @@ const BlueMetals = () => {
                     letterSpacing: '0.2px',
                   }}
                 >
-                  Our Products
+                  Blue Metals & Construction Aggregates
                 </Typography>
 
                 <Divider
@@ -350,7 +423,10 @@ const BlueMetals = () => {
                         background: '#fff',
                         border: '1.2px solid #e1dede',
                         borderRadius: '10px',
-                        boxSizing: { xs: 'border-box', md: 'content-box' },
+                        boxSizing: {
+                          xs: 'border-box',
+                          md: 'content-box',
+                        },
 
                         width: '100%',
                         maxWidth: '190px',
@@ -364,7 +440,8 @@ const BlueMetals = () => {
 
                         textAlign: 'center',
 
-                        boxShadow: '0px 3px 10px rgba(0,0,0,0.04)',
+                        boxShadow:
+                          '0px 3px 10px rgba(0,0,0,0.04)',
                         transition: '0.3s ease',
 
                         cursor: 'pointer',
@@ -373,7 +450,8 @@ const BlueMetals = () => {
                           backgroundColor: '#F5A000',
                           borderColor: '#F5A000',
                           transform: 'translateY(-3px)',
-                          boxShadow: '0px 6px 16px rgba(0,0,0,0.08)',
+                          boxShadow:
+                            '0px 6px 16px rgba(0,0,0,0.08)',
 
                           '& .productText': {
                             color: '#ffffff',
@@ -383,9 +461,13 @@ const BlueMetals = () => {
                     >
                       <Typography
                         className="productText"
+                        component="p"
                         sx={{
                           fontWeight: 600,
-                          fontSize: { xs: '15px', md: '16px' },
+                          fontSize: {
+                            xs: '15px',
+                            md: '16px',
+                          },
                           color: '#1A1A1A',
                           letterSpacing: '0.2px',
                           transition: '0.3s ease',
@@ -397,10 +479,13 @@ const BlueMetals = () => {
                   </Grid>
                 ))}
               </Grid>
+
             </Box>
+
           </Card>
         </Box>
       </Grid>
+
     </Grid>
   );
 };

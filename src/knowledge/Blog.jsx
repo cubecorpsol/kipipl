@@ -263,6 +263,7 @@ const Blog = () => {
             </Typography>
 
             <Typography
+              component="h1"
               variant="h3"
               sx={{
                 fontWeight: 700,
@@ -401,6 +402,7 @@ const Blog = () => {
                 FEATURED ARTICLES
               </Typography>
               <Typography
+                component="h2"
                 sx={{ fontWeight: 700, fontSize: { xs: '22px', md: '26px' }, color: '#111' }}
               >
                 Latest Insights & Industry Stories
@@ -449,6 +451,7 @@ const Blog = () => {
                       component="img"
                       src={a.img}
                       alt={a.title}
+                      loading="lazy"
                       sx={{ width: '100%', height: 170, objectFit: 'cover' }}
                     />
                     <Chip
@@ -471,6 +474,7 @@ const Blog = () => {
                     
 
                     <Typography
+                      component="h3"
                       sx={{ fontWeight: 700, fontSize: '15px', color: '#111', mb: 1, lineHeight: 1.35 }}
                     >
                       {a.title}
@@ -549,6 +553,7 @@ const Blog = () => {
                   component="img"
                   src={selectedBlog.img}
                   alt={selectedBlog.title}
+                  loading="lazy"
                   sx={{
                     width: "100%",
                     borderRadius: "10px",

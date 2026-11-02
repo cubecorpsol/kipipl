@@ -46,7 +46,7 @@ const FaqAccordionItem = ({ q, a, isOpen, onToggle }) => (
         <span className="w-6 h-6 rounded-full bg-yellow-400 text-white flex items-center justify-center shrink-0">
           <Plus className="w-3.5 h-3.5" strokeWidth={2.5} />
         </span>
-        <span className="text-sm font-bold text-gray-900">{q}</span>
+        <h2 className="text-sm font-bold text-gray-900">{q}</h2>
       </div>
       <ChevronDown
         className={`w-4 h-4 text-gray-400 shrink-0 transition-transform ${
@@ -149,7 +149,17 @@ export default function FAQ() {
     a: "For product enquiries, orders, pricing and service-related questions, you can contact KIPIPL at +91 82206 24590 or +91 72008 30590. Our team can assist with enquiries related to M Sand, P Sand, Ready Mix Concrete, Solid Blocks and other construction material requirements across our listed service locations.",
   },
 ];
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map(({ q, a }) => ({
+      "@type": "Question",
+      name: q,
+      acceptedAnswer: { "@type": "Answer", text: a },
+    })),
+  };
   return (
+    <>
     <div className="w-full min-h-screen bg-white font-sans text-gray-900">
       {/* BREADCRUMB + HERO */}
       <section className="bg-gray-50">
@@ -340,5 +350,11 @@ export default function FAQ() {
         </div>
       </section>
     </div>
+    <script
+      id="kipipl-faq-schema"
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+    />
+    </>
   );
 }

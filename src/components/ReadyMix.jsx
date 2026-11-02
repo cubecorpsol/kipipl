@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+
 import {
   Box,
   Button,
@@ -7,6 +8,7 @@ import {
   Grid,
   Typography,
 } from '@mui/material';
+
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 import ReadyMiximg from '../Assests/Readymix2.jpg';
@@ -33,6 +35,10 @@ const ReadyMix = () => {
 
   return (
     <Grid container>
+
+      {/* =========================
+          READY MIX MAIN SECTION
+          ========================= */}
       <Grid
         item
         xs={12}
@@ -62,30 +68,38 @@ const ReadyMix = () => {
               overflow: 'hidden',
             }}
           >
-            {/* TOP SECTION */}
-             <Box
-                  sx={{
-                    display: 'flex',
-                    flexDirection: { xs: 'column', md: 'row' },
-                    alignItems: 'stretch',
-                    justifyContent: 'space-between',
-                    gap: { xs: 5, md: 7, lg: 8 },
-                    px: { xs: 3, md: 7, lg: 8 },
-                    py: { xs: 5, md: 6 },
-                  }}
-              >
-              {/* LEFT CONTENT */}
+
+            {/* =========================
+                TOP SECTION
+                ========================= */}
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: { xs: 'column', md: 'row' },
+                alignItems: 'stretch',
+                justifyContent: 'space-between',
+                gap: { xs: 5, md: 7, lg: 8 },
+                px: { xs: 3, md: 7, lg: 8 },
+                py: { xs: 5, md: 6 },
+              }}
+            >
+
+              {/* =========================
+                  LEFT CONTENT
+                  ========================= */}
               <Box
-                  sx={{
-                    flex: '1 1 50%',
-                    minWidth: 0,
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'center',
-                  }}
+                sx={{
+                  flex: '1 1 50%',
+                  minWidth: 0,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  justifyContent: 'center',
+                }}
               >
-                {/* Main Heading */}
+
+                {/* Main SEO Heading */}
                 <Typography
+                  component="h2"
                   variant="h3"
                   sx={{
                     fontWeight: 700,
@@ -96,8 +110,12 @@ const ReadyMix = () => {
                     letterSpacing: '0.2px',
                   }}
                 >
-                  <span style={{ color: '#F5A000' }}>Kannan</span>{' '}
-                  <span style={{ color: '#111111' }}>Ready Mix</span>
+                  <span style={{ color: '#F5A000' }}>
+                    Kannan
+                  </span>{' '}
+                  <span style={{ color: '#111111' }}>
+                    Ready Mix
+                  </span>
                 </Typography>
 
                 {/* Divider */}
@@ -111,8 +129,9 @@ const ReadyMix = () => {
                   }}
                 />
 
-                {/* Description */}
+                {/* SEO Description */}
                 <Typography
+                  component="p"
                   variant="body1"
                   sx={{
                     color: '#4A4A4A',
@@ -125,19 +144,27 @@ const ReadyMix = () => {
                     letterSpacing: '0.2px',
                   }}
                 >
-                  Our Twin Shaft RMC Plant delivers premium-quality concrete
-                  using the VSI-processed aggregates and high-grade M-sand.
-                  Engineered design mixes, efficient boom pump support, and
-                  rapid delivery across Erode ensure reliable and precise
+                  KIPIPL provides premium-quality Ready Mix Concrete
+                  for residential, commercial and infrastructure
+                  projects. Our Ready Mix Concrete plant serves
+                  customers in Chennimalai, Perundurai, Erode and
+                  surrounding areas with reliable and timely concrete
+                  supply.
+
+                  <br />
+                  <br />
+
+                  Our Twin Shaft RMC Plant uses VSI-processed
+                  aggregates and high-grade M-Sand to produce
+                  consistent and high-performance concrete. Engineered
+                  design mixes, efficient boom pump support and
+                  professional site coordination help deliver reliable
                   concrete solutions for projects of every scale.
-                  <br />
-                  <br />
-                  Every pour is monitored by experienced professionals and site
-                  coordinators to maintain superior strength, consistency, and
-                  performance standards.
                 </Typography>
 
-                {/* BUTTONS */}
+                {/* =========================
+                    BUTTONS
+                    ========================= */}
                 <Box
                   sx={{
                     display: 'flex',
@@ -146,6 +173,7 @@ const ReadyMix = () => {
                     alignItems: { xs: 'start', sm: 'center' },
                   }}
                 >
+
                   {/* View Products Button */}
                   <Button
                     variant="contained"
@@ -187,7 +215,10 @@ const ReadyMix = () => {
                       },
                     }}
                     onClick={() =>
-                      window.open('https://wa.me/919942530590', '_blank')
+                      window.open(
+                        'https://wa.me/919942530590',
+                        '_blank'
+                      )
                     }
                   >
                     <WhatsAppIcon />
@@ -204,41 +235,49 @@ const ReadyMix = () => {
                       Chat on WhatsApp
                     </Typography>
                   </Button>
+
                 </Box>
               </Box>
 
-             {/* RIGHT IMAGE */}
-<Box
-  sx={{
-    flex: '1 1 50%',
-    minWidth: 0,
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-  }}
->
-  <Box
-    component="img"
-    src={ReadyMiximg}
-    alt="Kannan Ready Mix Concrete"
-    sx={{
-      width: '118%',
-      height: 'auto',
-      maxWidth: '118%',
-      display: 'block',
+              {/* =========================
+                  RIGHT IMAGE
+                  ========================= */}
+              <Box
+                sx={{
+                  flex: '1 1 50%',
+                  minWidth: 0,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                }}
+              >
+                <Box
+                  component="img"
+                  src={ReadyMiximg}
+                  alt="Ready Mix Concrete supplier in Chennimalai, Perundurai and Erode - KIPIPL"
+                  sx={{
+                    width: '118%',
+                    height: 'auto',
+                    maxWidth: '118%',
+                    display: 'block',
 
-      // IMPORTANT - FULL IMAGE, NO CROP
-      objectFit: 'contain',
+                    /* Full image - no crop */
+                    objectFit: 'contain',
 
-      borderRadius: '16px',
-      boxShadow: '0px 8px 24px rgba(0,0,0,0.08)',
-    }}
-  />
-</Box>
+                    borderRadius: '16px',
+                    boxShadow: '0px 8px 24px rgba(0,0,0,0.08)',
+                  }}
+                />
+              </Box>
+
             </Box>
 
-            {/* GALLERY SECTION */}
+            {/* =========================
+                READY MIX GALLERY
+                ========================= */}
             <Box
+              component="section"
+              aria-label="Ready Mix Concrete product gallery"
               sx={{
                 display: 'flex',
                 justifyContent: 'center',
@@ -253,19 +292,41 @@ const ReadyMix = () => {
               }}
             >
               {[
-                KRM,
-                ReadyMixNext,
-                KRMC,
-                KRMC1,
-                KRMC2,
-                KRMC3,
-                KRMC4,
-              ].map((image, index) => (
+                {
+                  image: KRM,
+                  alt: 'Kannan Ready Mix Concrete plant',
+                },
+                {
+                  image: ReadyMixNext,
+                  alt: 'Ready Mix Concrete supplied by KIPIPL',
+                },
+                {
+                  image: KRMC,
+                  alt: 'Ready Mix Concrete construction project',
+                },
+                {
+                  image: KRMC1,
+                  alt: 'KIPIPL Ready Mix Concrete delivery',
+                },
+                {
+                  image: KRMC2,
+                  alt: 'Ready Mix Concrete for construction projects',
+                },
+                {
+                  image: KRMC3,
+                  alt: 'Ready Mix Concrete supply in Erode',
+                },
+                {
+                  image: KRMC4,
+                  alt: 'Ready Mix Concrete supplier in Chennimalai',
+                },
+              ].map((item, index) => (
                 <Box
                   component="img"
                   key={index}
-                  src={image}
-                  alt={`Image ${index + 1}`}
+                  src={item.image}
+                  alt={item.alt}
+                  loading="lazy"
                   sx={{
                     width: { xs: '115px', md: '165px' },
                     height: { xs: '115px', md: '165px' },
@@ -283,9 +344,13 @@ const ReadyMix = () => {
               ))}
             </Box>
 
-            {/* PRODUCTS SECTION */}
+            {/* =========================
+                READY MIX PRODUCTS
+                ========================= */}
             <Box
               ref={productsRef}
+              component="section"
+              aria-labelledby="ready-mix-products-heading"
               sx={{
                 width: '100%',
                 boxSizing: { xs: 'border-box', md: 'content-box' },
@@ -294,9 +359,17 @@ const ReadyMix = () => {
                 mb: { xs: 7, md: 9 },
               }}
             >
-              {/* Heading */}
-              <Box sx={{ textAlign: 'center', mb: 5 }}>
+
+              {/* Products Heading */}
+              <Box
+                sx={{
+                  textAlign: 'center',
+                  mb: 5,
+                }}
+              >
                 <Typography
+                  id="ready-mix-products-heading"
+                  component="h3"
                   sx={{
                     fontWeight: 700,
                     fontSize: { xs: '28px', md: '38px' },
@@ -305,7 +378,7 @@ const ReadyMix = () => {
                     letterSpacing: '0.2px',
                   }}
                 >
-                  Our Products
+                  Ready Mix Concrete Grades
                 </Typography>
 
                 <Divider
@@ -355,7 +428,10 @@ const ReadyMix = () => {
                         background: '#fff',
                         border: '1.2px solid #e1dede',
                         borderRadius: '10px',
-                        boxSizing: { xs: 'border-box', md: 'content-box' },
+                        boxSizing: {
+                          xs: 'border-box',
+                          md: 'content-box',
+                        },
 
                         width: '100%',
                         maxWidth: '190px',
@@ -369,7 +445,8 @@ const ReadyMix = () => {
 
                         textAlign: 'center',
 
-                        boxShadow: '0px 3px 10px rgba(0,0,0,0.04)',
+                        boxShadow:
+                          '0px 3px 10px rgba(0,0,0,0.04)',
                         transition: '0.3s ease',
 
                         cursor: 'pointer',
@@ -378,7 +455,8 @@ const ReadyMix = () => {
                           backgroundColor: '#F5A000',
                           borderColor: '#F5A000',
                           transform: 'translateY(-3px)',
-                          boxShadow: '0px 6px 16px rgba(0,0,0,0.08)',
+                          boxShadow:
+                            '0px 6px 16px rgba(0,0,0,0.08)',
 
                           '& .productText': {
                             color: '#ffffff',
@@ -388,9 +466,13 @@ const ReadyMix = () => {
                     >
                       <Typography
                         className="productText"
+                        component="p"
                         sx={{
                           fontWeight: 600,
-                          fontSize: { xs: '15px', md: '16px' },
+                          fontSize: {
+                            xs: '15px',
+                            md: '16px',
+                          },
                           color: '#1A1A1A',
                           letterSpacing: '0.2px',
                           transition: '0.3s ease',
@@ -402,10 +484,13 @@ const ReadyMix = () => {
                   </Grid>
                 ))}
               </Grid>
+
             </Box>
+
           </Card>
         </Box>
       </Grid>
+
     </Grid>
   );
 };

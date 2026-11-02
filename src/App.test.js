@@ -1,8 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders Try Fix Pro in the taskbar', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const taskbarLink = screen
+    .getAllByRole('link', { name: /try fix pro/i })
+    .find((link) => link.getAttribute('href') === '/tile-fixpro');
+  expect(taskbarLink).toHaveAttribute('href', '/tile-fixpro');
 });

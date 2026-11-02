@@ -22,7 +22,6 @@ import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import ArticleOutlinedIcon from "@mui/icons-material/ArticleOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
-import ConstructionOutlinedIcon from "@mui/icons-material/ConstructionOutlined";
 import logo from "../Assests/Kannan Infra Projects Logo.jpg";
 
 // Use hash targets instead of full paths
@@ -39,7 +38,6 @@ const knowledgeLinks = [
   { label: "Blog", path: "/knowledge/blog", icon: <ArticleOutlinedIcon fontSize="small" /> },
   { label: "Service Locations", path: "/knowledge/service-locations", icon: <LocationOnOutlinedIcon fontSize="small" /> },
   { label: "FAQs", path: "/knowledge/faqs", icon: <HelpOutlineOutlinedIcon fontSize="small" /> },
-  { label: "Tile Fix Pro", path: "/knowledge/tile-fix-pro", icon: <ConstructionOutlinedIcon fontSize="small" /> },
 ];
 
 const Navbar = () => {
@@ -73,6 +71,12 @@ const Navbar = () => {
 
   const goToKnowledgePage = (path) => {
     navigate(path);
+    handleCloseKnowledge();
+    setDrawerOpen(false);
+  };
+
+  const goToTileFixPro = () => {
+    navigate("/tile-fixpro", { state: { resetScroll: true } });
     handleCloseKnowledge();
     setDrawerOpen(false);
   };
@@ -133,6 +137,40 @@ const Navbar = () => {
                 {item.label}
               </Typography>
             ))}
+
+            <Typography
+              component="a"
+              href="/tile-fixpro"
+              onClick={(event) => {
+                event.preventDefault();
+                goToTileFixPro();
+              }}
+              sx={{
+                color: "#090909",
+                cursor: "pointer",
+                fontSize: "12px",
+                fontWeight: 500,
+                textDecoration: "none",
+                textTransform: "uppercase",
+                position: "relative",
+                "&:hover": { color: "#FEA515" },
+                "&::after": {
+                  content: '""',
+                  position: "absolute",
+                  width: "100%",
+                  height: "2px",
+                  backgroundColor: "#FEA515",
+                  bottom: -4,
+                  left: 0,
+                  transform: "scaleX(0)",
+                  transformOrigin: "left",
+                  transition: "transform 0.3s ease",
+                },
+                "&:hover::after": { transform: "scaleX(1)" },
+              }}
+            >
+              Try Fix Pro
+            </Typography>
 
             {/* KNOWLEDGE Dropdown Button */}
             <Button
@@ -254,6 +292,17 @@ const Navbar = () => {
             ))}
 
             <Divider sx={{ my: 1 }} />
+
+            <ListItem
+              component="a"
+              href="/tile-fixpro"
+              onClick={(event) => {
+                event.preventDefault();
+                goToTileFixPro();
+              }}
+            >
+              <ListItemText primary="TRY FIX PRO" />
+            </ListItem>
 
             {/* Mobile KNOWLEDGE section */}
             <ListItem
